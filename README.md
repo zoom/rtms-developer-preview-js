@@ -1,8 +1,8 @@
-# RTMS Tester App
+# RTMS Beta Node.js Sample
 
 !! INTERNAL CONFIDENTIAL !! 
 
-**This app contains a temporary token that can access the repo**
+This app is meant for RTMS Beta Testers only.
 
 # Setup
 
