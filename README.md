@@ -1,8 +1,12 @@
 # RTMS Beta Node.js Sample
 
-!! INTERNAL CONFIDENTIAL !! 
+This project is a brief demo on how to get started with the Node.JS SDK for RTMS.
 
-This app is meant for RTMS Beta Testers only.
+> [!IMPORTANT]
+> **Confidential under NDA  - Do not distribute during beta**
+> This document contains confidential information that requires an NDA. It is intended only for partners in the Zoom RTMS Beta Developers program.
+
+> Participation in the RTMS Beta Offering, including access to and use of these RTMS Beta Offering materials, is subject to [Zoom’s Beta Program - Terms of Use](https://www.zoom.com/en/trust/beta-terms-and-conditions/).
 
 # Setup
 
@@ -12,13 +16,10 @@ The project will automatically clone the GitHub repo. Make sure that you have se
  npm install github:zoom/rtms
  ```
 
-**These next steps are temporary development steps**
+### Beta Only 
 
-Due to a known bug with NPM we will need to call a special function to make sure that the install hook is run
+The Node.JS SDK is built on a C language SDK which means we have prebuilt binaries that we need to fetch. While the repository is private, we can use this command with a token to fetch those resources.
 
-bug: https://stackoverflow.com/questions/18401606/npm-doesnt-install-module-dependencies
-
-run the fetch script with this access token
 
 ```bash
 npm run fetch -- your-token-goes-here
