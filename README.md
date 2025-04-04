@@ -1,4 +1,4 @@
-# RTMS Beta Node.js Sample
+# RTMS Developer Preview - Node.js 
 
 This project is a brief demo on how to get started with the Node.JS SDK for RTMS.
 
