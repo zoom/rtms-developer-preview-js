@@ -1,7 +1,5 @@
 import rtms from "@zoom/rtms";
 
-
-// The below method works if you want to trigger the test server without a webhook
 rtms.onWebhookEvent(({event, payload}) => {
     console.log(event, payload)
  
@@ -13,8 +11,6 @@ rtms.onWebhookEvent(({event, payload}) => {
     client.onAudioData((data, timestamp, metadata) => {
         console.log(data)
     });
-
-
 
     client.join(payload)
 });
